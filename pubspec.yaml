@@ -12,11 +12,12 @@ dependencies:
   cupertino_icons: ^1.0.6
   google_fonts: ^6.2.1
   flutter_tts: ^4.0.2          # نطق الحروف والكلمات بالإنجليزية
-  audioplayers: ^6.0.0         # أصوات المؤثرات والموسيقى
+  audioplayers: ^6.8.0         # أصوات المؤثرات والموسيقى
   confetti: ^0.7.0             # احتفال عند الفوز في الألعاب
   flutter_animate: ^4.5.0      # حركات وانيميشن جذابة
   shared_preferences: ^2.2.3   # حفظ تقدم الطفل ونقاطه
-  audioplayers_web: ^4.1.0
+  audioplayers: ^6.8.0
+  audioplayers_web: ^5.3.0
 
 dev_dependencies:
   flutter_test:
