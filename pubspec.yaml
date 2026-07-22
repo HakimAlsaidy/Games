@@ -1,6 +1,8 @@
 name: shahd_shaza
 description: "تطبيق تعليمي ممتع لتعليم الأطفال اللغة الإنجليزية - إهداء لشهد وشذى"
+
 publish_to: 'none'
+
 version: 1.0.0+1
 
 environment:
@@ -9,22 +11,48 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+
   cupertino_icons: ^1.0.6
+
+  # الخطوط
   google_fonts: ^6.2.1
-  flutter_tts: ^4.0.2          # نطق الحروف والكلمات بالإنجليزية
-  audioplayers: ^6.8.0         # أصوات المؤثرات والموسيقى
-  confetti: ^0.7.0             # احتفال عند الفوز في الألعاب
-  flutter_animate: ^4.5.0      # حركات وانيميشن جذابة
-  shared_preferences: ^2.2.3   # حفظ تقدم الطفل ونقاطه
-  audioplayers_web: ^5.3.0
+
+  # نطق الحروف والكلمات
+  flutter_tts: ^4.0.2
+
+  # الأصوات والمؤثرات
+  audioplayers: ^6.8.0
+
+  # الاحتفال عند الفوز
+  confetti: ^0.7.0
+
+  # الحركات
+  flutter_animate: ^4.5.0
+
+  # حفظ تقدم الطفل
+  shared_preferences: ^2.2.3
+
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
   flutter_lints: ^4.0.0
+
+  # إنشاء أيقونة التطبيق أثناء GitHub Actions
+  flutter_launcher_icons: ^0.14.4
+
 
 flutter:
   uses-material-design: true
+
   assets:
     - assets/images/
     - assets/audio/
+
+
+# إعداد أيقونة التطبيق
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/hakim.png"
