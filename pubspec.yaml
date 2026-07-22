@@ -16,7 +16,6 @@ dependencies:
   confetti: ^0.7.0             # احتفال عند الفوز في الألعاب
   flutter_animate: ^4.5.0      # حركات وانيميشن جذابة
   shared_preferences: ^2.2.3   # حفظ تقدم الطفل ونقاطه
-  audioplayers: ^6.8.0
   audioplayers_web: ^5.3.0
 
 dev_dependencies:
